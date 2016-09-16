@@ -487,9 +487,9 @@ void printRuote() {
 	cout << "->出站"<<endl;
 }
 
-//int main(int argc, char *argv[]) {
-
+//main函数
 int main( int argc, char* argv[] ) {
+//int main() {
 
 	string op;
 	string s_name1, s_name2;
@@ -504,10 +504,6 @@ int main( int argc, char* argv[] ) {
 	    s_name2 = argv[3];
 	}
 
-	if (getStationIndex(s_name1) == -1 || getStationIndex(s_name2) == -1) {
-		cout << "参数s_name1或s_name2错误" << endl;
-		return 1;
-	}
 
 	//初始化图g
 	for (int i = 0; i < STATION_NUM; ++i) {
@@ -525,7 +521,12 @@ int main( int argc, char* argv[] ) {
 	}
 
 	setArray();
-	
+
+	//参数正确性检查以及分情况进行处理
+	if (getStationIndex(s_name1) == -1 || getStationIndex(s_name2) == -1) {
+		cout << "参数s_name1或s_name2错误" << endl;
+		return 1;
+	}
 	if ( op == "-b" ) {
 		dijkstra(s_name1, s_name2);
 	}
@@ -543,9 +544,6 @@ int main( int argc, char* argv[] ) {
 	}
 	//输出乘车方案
 	printRuote();
-	
-	
-
 	system("pause");
 
 	return 0;
