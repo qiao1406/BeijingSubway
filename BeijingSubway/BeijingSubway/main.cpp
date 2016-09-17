@@ -3,6 +3,7 @@
 #include <sstream>
 #include <fstream>
 #include <queue>
+#include <map>
 #include <limits.h>
 #include <Windows.h>
 #include "station.h"
@@ -22,10 +23,11 @@ int g[STATION_NUM][STATION_NUM];//图的邻接矩阵
 int st_num = 0;
 int line_num = 0;
 queue<int> route;//存的是路线上站点的下标值
+map<string, int> st_map;
 
 // 返回站点在数组里的下标，若没有则返回-1
 int getStationIndex(string name) {
-	int rst = -1;
+	/*int rst = -1;
 
 	for (int i = 0; i < st_num; ++i) {
 		if (st_arr[i].name == name) {
@@ -34,7 +36,10 @@ int getStationIndex(string name) {
 		}
 	}
 
-	return rst;
+	return rst;*/
+	map<string, int>::iterator it = st_map.find(name);
+	return (it == st_map.end()) ? -1 : st_map[name];
+
 }
 
 int getLineIndex(string name) {
@@ -102,6 +107,7 @@ void setArray() {
 			else { // 未加入的站点
 				x = st_num;
 				st_arr[st_num] = station(word, lineName);
+				st_map.insert(pair<string,int>(word,st_num));
 				st_num++;
 			}
 
@@ -240,6 +246,7 @@ void leastChangeSlution(string start, string end) {
 	if (st_arr[index1].isInSameLine(st_arr[index2])) {
 		find = true;
 		path[index2][++pos[index2]] = index2;
+		change_time[index2] = 0;
 	}
 	else {
 
@@ -354,6 +361,10 @@ void leastChangeSlution(string start, string end) {
 		}
 	}
 
+	if (min_index == -1) {
+		cout << "找不到最短换乘路径" << endl;
+		return;
+	}
 	//找到最适合的路径了，把路径存到队列里面
 	//先把起点加进去
 	route.push(path[min_index][0]);
@@ -428,8 +439,11 @@ void leastChangeSlution(string start, string end) {
 // 输出路径的信息
 void printRuote() {
 
-	bool gbd = false;
-	bool dwl = false;
+	bool gbd = false; //高碑店
+	bool dwl = false; //大望路
+	bool xj = false;//西局
+	bool llq = false;//六里桥
+	bool qlz = false; //七里庄
 	int last_1 = -1;
 	int last_2 = -1;
 	int now;
@@ -449,6 +463,15 @@ void printRuote() {
 	}
 	if (st_arr[now].name == "大望路") {
 		dwl = true;
+	}
+	if (st_arr[now].name == "西局") {
+		xj = true;
+	}
+	if (st_arr[now].name == "六里桥") {
+		llq = true;
+	}
+	if (st_arr[now].name == "七里庄") {
+		qlz = true;
 	}
 
 	last_1 = now;
@@ -470,6 +493,51 @@ void printRuote() {
 				cout << "->换乘地铁1号线";
 			}
 			dwl = true;
+		}
+
+		if (st_arr[now].name == "西局") {
+
+			if ( qlz == true && llq == true) {
+
+				if (st_arr[last_1].name == "七里庄" && st_arr[last_2].name == "六里桥") {
+					cout << "->换乘地铁14号线西段";
+				}
+				if (st_arr[last_2].name == "七里庄" && st_arr[last_1].name == "六里桥") {
+					cout << "->换乘地铁10号线";
+				}
+				
+			}
+			xj = true;
+		}
+
+		if (st_arr[now].name == "六里桥") {
+
+			if (qlz == true && xj == true) {
+
+				if (st_arr[last_1].name == "七里庄" && st_arr[last_2].name == "西局") {
+					cout << "->换乘地铁9号线";
+				}
+				if (st_arr[last_2].name == "七里庄" && st_arr[last_1].name == "西局") {
+					cout << "->换乘地铁10号线";
+				}
+
+			}
+			llq = true;
+		}
+
+		if (st_arr[now].name == "七里庄") {
+
+			if (llq == true && xj == true) {
+
+				if (st_arr[last_1].name == "六里桥" && st_arr[last_2].name == "西局") {
+					cout << "->换乘地铁9号线";
+				}
+				if (st_arr[last_2].name == "六里桥" && st_arr[last_1].name == "西局") {
+					cout << "->换乘地铁14号线西段";
+				}
+
+			}
+			qlz = true;
 		}
 
 		if (last_2 != -1) {

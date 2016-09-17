@@ -1,0 +1,2963 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+      <FILENAME>line_list.cpp</FILENAME>
+      <LINE>132</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>使用未初始化的内存“p”。</DESCRIPTION>
+    <FUNCTION>line_list::free</FUNCTION>
+    <DECORATED>?free@line_list@@QAEXXZ</DECORATED>
+    <FUNCLINE>122</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>line_list.cpp</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>line_list.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>line_list.cpp</FILENAME>
+        <LINE>127</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>line_list.cpp</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>line_list.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>line_list.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>未初始化“p”</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>line_list.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已使用“p”，但可能尚未将其初始化</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>取消对 NULL 指针“head”的引用。</DESCRIPTION>
+    <FUNCTION>setArray</FUNCTION>
+    <DECORATED>?setArray@@YAXXZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“head”为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“&gt;&gt;(ss, word)-&gt;._N()”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“&lt;分支条件&gt;”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>119</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已取消对“head”的引用，但可能仍为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>119</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>取消对 NULL 指针“end”的引用。</DESCRIPTION>
+    <FUNCTION>setArray</FUNCTION>
+    <DECORATED>?setArray@@YAXXZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“end”为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“&gt;&gt;(ss, word)-&gt;._N()”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“&lt;分支条件&gt;”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>119</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已取消对“end”的引用，但可能仍为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>154</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用了堆栈的“363684”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。</DESCRIPTION>
+    <FUNCTION>dijkstra</FUNCTION>
+    <DECORATED>?dijkstra@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>154</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>201</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>使用未初始化的内存“pos”。</DESCRIPTION>
+    <FUNCTION>dijkstra</FUNCTION>
+    <DECORATED>?dijkstra@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>154</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>156</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>156</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>未初始化“pos”</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>160</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>163</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>163</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“i&lt;st_num”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>170</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>172</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“s[index2]==0”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>201</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>201</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已使用“pos”，但可能尚未将其初始化</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>208</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用了堆栈的“28352”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。</DESCRIPTION>
+    <FUNCTION>leastChangeSlution</FUNCTION>
+    <DECORATED>?leastChangeSlution@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>208</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>283</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>使用未初始化的内存“pos”。</DESCRIPTION>
+    <FUNCTION>leastChangeSlution</FUNCTION>
+    <DECORATED>?leastChangeSlution@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>208</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>211</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>211</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>212</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>213</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>214</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>未初始化“pos”</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>215</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>217</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>218</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>219</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>222</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>226</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>226</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“i&lt;line_num”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“i&lt;st_num”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“i&lt;3”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“==(st_arr[index1].line[i], "")”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“j&lt;st_num”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“i&lt;3”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“==(st_arr[index1].line[i], "")”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“j&lt;st_num”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>继续此循环(假定“i&lt;3”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>12</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“!q1.empty()”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>273</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>13</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“&lt;分支条件&gt;”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>283</LINE>
+        <COLUMN>40</COLUMN>
+        <KEYEVENT>
+          <ID>14</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已使用“pos”，但可能尚未将其初始化</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>416</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>取消对 NULL 指针“p”的引用。</DESCRIPTION>
+    <FUNCTION>leastChangeSlution</FUNCTION>
+    <DECORATED>?leastChangeSlution@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>208</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>211</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>211</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>212</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>213</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>214</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>215</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>217</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>218</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>219</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>222</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>226</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>226</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>258</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>258</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>273</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>283</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>273</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>283</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>330</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>330</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>330</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>330</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>338</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>338</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>340</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>341</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>343</LINE>
+        <COLUMN>71</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>343</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>344</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>345</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>57</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>53</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>347</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>345</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>344</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>348</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>343</LINE>
+        <COLUMN>71</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>343</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>344</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>345</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>57</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>53</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>347</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>345</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>344</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>348</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>350</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>352</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>338</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>338</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>358</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>364</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>365</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>365</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>85</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>369</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>371</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>371</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>375</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>399</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>399</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>399</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>400</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>401</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>403</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>405</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>406</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>407</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>410</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>411</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“p”可能为 NULL (跳过此循环)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>413</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“p2==0”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>416</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已取消对“p”的引用，但可能仍为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>296</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>使用未初始化的内存“line_flag”。</DESCRIPTION>
+    <FUNCTION>leastChangeSlution</FUNCTION>
+    <DECORATED>?leastChangeSlution@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>208</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>211</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>211</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>212</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>213</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>214</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>215</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>217</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>218</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>219</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>未初始化“line_flag”</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>222</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>226</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>226</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“i&lt;line_num”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“i&lt;3”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“==(st_arr[index1].line[i], "")”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“!q1.empty()”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>273</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>289</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>289</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“i&lt;3”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>290</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“==(line_name, "")”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>44</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>44</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已使用“line_flag”，但可能尚未将其初始化</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>499</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>从“st_arr”中读取的数据无效: 可读大小为“34800”个字节，但可能读取了“last_2”个字节。</DESCRIPTION>
+    <FUNCTION>printRuote</FUNCTION>
+    <DECORATED>?printRuote@@YAXXZ</DECORATED>
+    <FUNCLINE>434</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>436</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>437</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>438</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>439</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>440</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>441</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>442</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>443</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>445</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“route.size()&lt;2”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>450</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>451</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>452</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>453</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::&lt;&lt;”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\string:167 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>455</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>455</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“==(st_arr[now].name, "高碑店")”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>458</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>458</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“==(st_arr[now].name, "大望路")”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>461</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>461</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“==(st_arr[now].name, "西局")”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>464</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>464</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“==(st_arr[now].name, "六里桥")”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>467</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>467</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>12</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“==(st_arr[now].name, "七里庄")”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>471</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>472</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>474</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>13</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“!route.empty()”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>475</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>476</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>478</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>14</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>478</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>15</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“==(st_arr[now].name, "高碑店")”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>485</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>16</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>485</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>17</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“==(st_arr[now].name, "大望路")”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>492</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>18</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>492</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>19</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“==(st_arr[now].name, "西局")”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>494</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>20</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“qlz==1&amp;&amp;llq==1”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>504</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>507</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>21</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>507</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>22</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“==(st_arr[now].name, "六里桥")”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>509</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>23</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“qlz==1&amp;&amp;xj==1”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>519</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>522</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>24</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>522</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>25</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“==(st_arr[now].name, "七里庄")”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>524</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>26</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“llq==1&amp;&amp;xj==1”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>526</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>27</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>526</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>28</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>529</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>29</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>529</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>30</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>534</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>537</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>31</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“last_1”可能等于 -1 (跳过此分支)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>543</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>544</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>32</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::&lt;&lt;”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\string:167 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>545</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>33</ID>
+          <KIND>别名</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>(别名)“last_2”收到“last_1”的值(可能为 -1)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>546</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>474</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>34</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>继续此循环(假定“!route.empty()”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>475</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>476</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>478</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>35</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>478</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>36</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“==(st_arr[now].name, "高碑店")”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>485</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>37</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>485</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>38</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“==(st_arr[now].name, "大望路")”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>492</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>39</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>492</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>40</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“==(st_arr[now].name, "西局")”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>494</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>41</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“qlz==1&amp;&amp;llq==1”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>496</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>42</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>496</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>43</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>499</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>44</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“st_arr”是“std::==”中的输出(在 c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:2476 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\巧\documents\visual studio 2015\projects\beijingsubway\beijingsubway\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>499</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>45</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>从“st_arr[-1]”中读取无效(可读范围是 0 到 299)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
